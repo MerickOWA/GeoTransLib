@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeoTransLib", "GeoTransLib\GeoTransLib.vcxproj", "{9D51FD80-2D85-4BA3-BD16-2E4E0B8E1166}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tests", "Tests\Tests.vcxproj", "{8E630F82-52A2-4414-902E-240F47997C96}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9D51FD80-2D85-4BA3-BD16-2E4E0B8E1166} = {9D51FD80-2D85-4BA3-BD16-2E4E0B8E1166}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D51FD80-2D85-4BA3-BD16-2E4E0B8E1166}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D51FD80-2D85-4BA3-BD16-2E4E0B8E1166}.Debug|Win32.Build.0 = Debug|Win32
+		{9D51FD80-2D85-4BA3-BD16-2E4E0B8E1166}.Release|Win32.ActiveCfg = Release|Win32
+		{9D51FD80-2D85-4BA3-BD16-2E4E0B8E1166}.Release|Win32.Build.0 = Release|Win32
+		{8E630F82-52A2-4414-902E-240F47997C96}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E630F82-52A2-4414-902E-240F47997C96}.Debug|Win32.Build.0 = Debug|Win32
+		{8E630F82-52A2-4414-902E-240F47997C96}.Release|Win32.ActiveCfg = Release|Win32
+		{8E630F82-52A2-4414-902E-240F47997C96}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
